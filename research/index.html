@@ -27,36 +27,7 @@
   </style>
 
   <link rel="icon" type="image/png" href="images/sustech3.png">
-  <!--
-  <script src="jquery.min.js"></script>
-  <script>
-  $(document).ready(function(){
-    // Add smooth scrolling to all links
-    $("a").on('click', function(event) {
-
-      // Make sure this.hash has a value before overriding default behavior
-      if (this.hash !== "") {
-        // Prevent default anchor click behavior
-        event.preventDefault();
-
-        // Store hash
-        var hash = this.hash;
-
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 800, function(){
-
-          // Add hash (#) to URL when done scrolling (default click behavior)
-          window.location.hash = hash;
-        });
-      } // End if
-    });
-  });
-  </script>
-  //-->
-
+ 
 </head>
 
 
@@ -79,6 +50,22 @@
 
   </div>
 </nav>
+<div class="w3-bar w3-light-grey">
+    <a href="#operad" class="w3-bar-item w3-button">Operad Theory</a>
+    <a href="#motivic" class="w3-bar-item w3-button">Motivic World</a>
+    <a href="#quantum" class="w3-bar-item w3-button">Quantum World</a>
+
+    <div class="w3-dropdown-click">
+      <button class="w3-button" onclick="myFunction()">
+        Questions on AT <i class="fa fa-caret-down"></i>
+      </button>
+      <div id="demo" class="w3-dropdown-content w3-bar-block w3-card">
+        <a href="#" class="w3-bar-item w3-button">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button">Link 3</a>
+      </div>
+    </div>
+  </div>
 
 <!-- Top menu on small screens -->
 <header class="w3-bar w3-top w3-hide-large w3-teal w3-xlarge">
@@ -99,7 +86,7 @@
 <!-- The Home Section -->
     <div class="w3-container w3-center w3-padding-32" id="home">
 <!--       <img style="width: 80%;max-width: 320px" alt="profile photo" src="images/Mypicture.jpg"> -->
-      <h1>Tongtong Liang's Research site</h1>
+      <h1>Tongtong Liang's Research Site</h1>
         
         </tbody></table>
   </div>
