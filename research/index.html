@@ -54,7 +54,8 @@
     <a href="#operad" class="w3-bar-item w3-button">Operad Theory</a>
     <a href="#motivic" class="w3-bar-item w3-button">Motivic World</a>
     <a href="#quantum" class="w3-bar-item w3-button">Quantum World</a>
-
+  
+  <div class="w3-bar w3-light-grey">
     <div class="w3-dropdown-click">
       <button class="w3-button" onclick="myFunction()">
         Questions on AT <i class="fa fa-caret-down"></i>
@@ -66,6 +67,18 @@
       </div>
     </div>
   </div>
+  </div>
+  
+  <script>
+function myFunction() {
+  var x = document.getElementById("demo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
 
 <!-- Top menu on small screens -->
 <header class="w3-bar w3-top w3-hide-large w3-teal w3-xlarge">
