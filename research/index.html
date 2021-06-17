@@ -68,18 +68,18 @@
   
   <!-- 上端导航栏-->
 <div class="w3-bar w3-light-grey">
-    <a href="#operad" class="w3-bar-item w3-button">Operad Theory</a>
+<!--     <a href="#operad" class="w3-bar-item w3-button">Operad Theory</a>
     <a href="#motivic" class="w3-bar-item w3-button">Motivic World</a>
-    <a href="#quantum" class="w3-bar-item w3-button">Quantum World</a>
+    <a href="#quantum" class="w3-bar-item w3-button">Quantum World</a> -->
   
     <div class="w3-dropdown-click">
       <button class="w3-button" onclick="myFunction()">
-        Higher Algebras <i class="fa fa-caret-down"></i>
+        Algebraic Topology <i class="fa fa-caret-down"></i>
       </button>
       <div id="demo" class="w3-dropdown-content w3-bar-block w3-card">
         <a href="#operadtheory" class="w3-bar-item w3-button">Operad Theory</a>
         <a href="#poweroperation" class="w3-bar-item w3-button">Power Operations</a>
-        <a href="#ktheory" class="w3-bar-item w3-button">Link 3</a>
+        <a href="#ktheory" class="w3-bar-item w3-button">Stable Homotopy Theory</a>
       </div>
     </div>
   </div>
@@ -120,9 +120,8 @@ function myFunction() {
   </div>
 
 <!-- The Higher Algebras Section -->
-  <div class="w3-container w3-light-grey w3-padding-32" id="ha">
-   <h2>Higher Algebras</h2>
-      <p>Topics in higher algebras: operad theory, power operations and stable homotopy theory.</p>
+  <div class="w3-container w3-light-grey w3-padding-32" id="at">
+   <h2>Algebraic Topology</h2>
     
       <div class="w3-container w3-light-grey w3-padding-32" id="operadtheory">
       <h3>Operad Theory</h3>
@@ -139,7 +138,38 @@ function myFunction() {
 
      </div>
        
-     <div class="w3-container w3-light-grey w3-padding-32" id="poweroperation">
+     
+        
+      <div class="w3-container w3-light-grey w3-padding-32" id="stable">
+     <h3>Stable Homotopy Theory</h3>
+       <p><li>Peter May: <a style="color:#447ec9" href="http://www.math.uchicago.edu/~may/PAPERS/history.pdf">Stable Algebraic Topology</a>. Good historical review of stable homotopy theory.</li></p>        
+     
+        
+       <p><li>J.P.C Greenlees: <a style="color:#447ec9" href="Spectra for Communicative Algebraists.pdf">Spectra for Communicative Algebraists</a>. This survey introduces three ways to construct the categogry of spectra: EKMM spectra, symmetric spectra and orthogonal spectra. The main difference among them is how to construct the smash products. The central idea is that ring spectra are topological derivation of rings.</li></p>   
+        
+       <p><li>Peter May: <a style="color:#447ec9" href="http://www.math.uchicago.edu/~may/PAPERS/Final1.pdf">What precisely are $E_\infty$ ring spaces and $E_\infty$ ring spectra?</a>, <a style="color:#447ec9" href="http://www.math.uchicago.edu/~may/PAPERS/Final2.pdf">The construction of $E_\infty$ ring spaces
+from bipermutative categories</a>, <a style="color:#447ec9" href="http://www.math.uchicago.edu/~may/PAPERS/Final3.pdf">What are $E_\infty$ ring spaces good for?</a></li></p>        
+        
+       <p><li>A.D.Elmendorf, I. Kriz, M. A. Mandell, J. P. May (EKMM): <a style="color:#447ec9" href="http://www.math.uchicago.edu/~may/PAPERS/Newfirst.pdf">Mordern Foundations for Stable Homotopy Theory</a>. A short survey on the theory of EKMM spectra (about 40 pages).</li></p>
+        
+        <p><li>A.D.Elmendorf, I. Kriz, M. A. Mandell, J. P. May (EKMM): <a style="color:#447ec9" href="http://www.math.uchicago.edu/~may/BOOKS/EKMM.pdf">Rings, Modules and Algebras in Stable Homotopy Theory</a>. A standard textbook on EKMM spectra.</li></p>   
+        
+        <p><li>Lewis Jr L.G.: <a style="color:#447ec9" href="Is there a convenient category of spectra.pdf">Is there a convenient category of spectra</a>. This article shows that there is NO a symmetric monoidal category with respect to the smash product satisfying some axioms, for example, $\Sigam^\infty$ and $\Omega^\infty$ is a pair of adjunctions; $\Sigma^\infty S^0$ should be the unit for the smash product; some existence of natural equivalences and weak equivalences, etc.</li></p>     
+        
+        <p><li>Jacob Lurie: <a style="color:#447ec9" href="https://arxiv.org/pdf/math/0608228.pdf">Derived Algebraic Geometry $\uppercase\expandafter{\romannumeral1}$: Stable $\infty$-categories$</a>. Although there is no a convenient category of spectra, there is a convenient $\infty$-category of spectra. That's a reason why we need the framework of higher algebra.</li></p>
+        
+
+        
+        
+        <p><li>N.P.Strickland: <a style="color:#447ec9" href="https://neil-strickland.staff.shef.ac.uk/research/stableintro.pdf">An Introduction to the Category of Spectra</a>. There a lots of examples of spectra in algebraic topology. To invert the suspension functor $\Sigma\!:\mathbb{S}pace\rightarrow \mathbb{S}pace$ i.e. make $\Sigma$ be an equivalence between categories, stable homotopy category. Namely, in stable homotopy category, $\Sigma X$ is homotopy equivalent to $X$. If we view $\Sigma$ as $\wedge S^1$, we may say that we get the stable homotopy category by inverting spheres.</li></p>
+        
+        <p><li>Mark Hovey: <a style="color:#447ec9" href="Spectra and symmetric spectra in general model categories.pdf">Spectra and symmetric spectra in general model categories</a>. This article gives two general ways for the passage from unstable homotopy category to stable homotopy category. It does not only work on topological spaces, but also on motivic spaces and $\mathbb{A}^1$ homotopy theory.</li></p>        
+        
+        <p><li>Daniel Dugger: <a style="color:#447ec9" href="https://pages.uoregon.edu/ddugger/models_chapter.pdf">Stable categories and spectra
+via model categories</a>. The viewpoint from model categories.</li></p>            
+       </div>
+    
+<div class="w3-container w3-light-grey w3-padding-32" id="poweroperation">
      <h3>Power Operations and Cohomology Operations</h3>
      <p><li>The original idea comes from Steenrod: <a style="color:#447ec9" href="1947 Products of Cocycles and Extensions of Mappings.pdf">Products of Cocycles and Extensions of Mappings </a>. He define cup-i products of regular-i pairs on ordered simplicial complex and then the square of cup-i product gives Steenrod squares.</li></p>
        
@@ -148,16 +178,14 @@ function myFunction() {
        <p><li>N.Steenrod: <a style="color:#447ec9" href="1957 Cohomology Operations Derived from the Symmetric Group.pdf">Cohomology Operations Derived from the Symmetric Group</a>. In this article, we know that all the cohomology operations are generated by reduced power operations, Bockstein-Whitney operations and coefficient homomorphisms (Main theorem in section 4). A systematic way to construct cohomology operations is in Epstein-Steenrod's <i>Cohomology Operations</i>.</li></p>
 
        <p><li>N.Steenrod: <a style="color:#447ec9" href="1957 Cohomology operations, and obstructions to extending continuous functions..pdf">Cohomology operations, and obstructions to extending continuous functions</a>. This is a good survey on cohomology operations. </li></p>
+  
+         <p><li>Peter May: <a style="color:#447ec9" href="1957 Cohomology operations, and obstructions to extending continuous functions..pdf">Cohomology operations, and obstructions to extending continuous functions</a>. This is a good survey on cohomology operations. </li></p>
+
               
 
 
        
-      </div> 
-        
-      <div class="w3-container w3-light-grey w3-padding-32" id="stable">
-     <h3>Stable Homotopy Theory</h3>
- 
-       </div>
+      </div>     
 
 
 
