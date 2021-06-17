@@ -8,7 +8,25 @@
         messageStyle: "none"
     });
 </script> -->
-
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          // customised options
+          // • auto-render specific keys, e.g.:
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          // • rendering keys, e.g.:
+          throwOnError : false
+        });
+    });
+</script>
 
   <title>Tongtong Liang's Homepage</title>
 
@@ -128,28 +146,28 @@ Especially, I am concerned with cohomology operations and their applications in 
       <th>Motivic space</th>
     </tr>
     <tr>
-      <td>singular cohomology</td>
-      <td>motivic cohomology</td>
+      <td>Singular cohomology</td>
+      <td>Motivic cohomology</td>
     </tr>
     <tr>
-      <td>topological K-theory</td>
-      <td>algebraic K-theory</td>
+      <td>Topological K-theory</td>
+      <td>Algebraic K-theory</td>
     </tr>
       <tr>
-      <td>cobordism</td>
-      <td>algebraic cobordism</td>
+      <td>Cobordism</td>
+      <td>Algebraic cobordism</td>
     </tr>
     <tr>
       <td>$[0,1]$</td>
       <td>$\mathbb{A}^1$</td>
     </tr>
        <tr>
-      <td>homotopy</td>
+      <td>Homotopy</td>
       <td>$\mathbb{A}^1$-homotopy</td>
     </tr>
       <tr>
-      <td>Atiyah-Hirzebruch spectra sequences</td>
-      <td>motivic Atiyah-Hirzebruch spectral sequences</td>
+      <td>Atiyah-Hirzebruch spectral sequences</td>
+      <td>Motivic Atiyah-Hirzebruch spectral sequences</td>
     </tr>
   </table>      
 
